@@ -7,7 +7,7 @@ public class testCheckPalindrome {
 
     @Test
     public void testPallindrome(){
-        int checkNum = 1001;
+        int checkNum = 110011;
         int copyCheckNum = checkNum;
         int reverse = 0;
         while(copyCheckNum > 0){
