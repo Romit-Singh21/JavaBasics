@@ -14,8 +14,8 @@ public class testCheckPalindrome {
             reverse = (reverse*10) + (copyCheckNum%10);
             copyCheckNum = copyCheckNum/10;
         }
-        System.out.println("The original number is: " + checkNum);
-        System.out.println("The reverse of the number is: " + reverse);
+        System.out.println("The original number is:: " + checkNum);
+        System.out.println("The reverse of the number is:: " + reverse);
 
         Assert.assertEquals(checkNum, reverse, "The numbers are not palindrome");
         System.out.println("The numbers are palindrome");
